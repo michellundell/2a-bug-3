@@ -8,13 +8,13 @@
  
 int main(int argc, char **argv)
 {
-	int p = 1;
+	unsigned long long p = 1;
 	
 	for(int i=0; i<100; i++) {
 		p = p*i;
 	}
 	
-	printf("The product of first 100 integers are %d\n",p);
+	printf("The product of first 60 integers are %llu \n",p);
 
 	return 0;
 }
