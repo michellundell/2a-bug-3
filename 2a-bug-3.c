@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 {
 	ld p = 1;
 	
-	for(int i=1; i<100; i++) {
+	for(int i=1; i<=100; i++) {
 		p = p*i;
 	}
 	
