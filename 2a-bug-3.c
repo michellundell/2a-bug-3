@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 		p = p*i;
 	}
 	
-	printf("The product of first 100 integers are 0.%Lf\n",p);
+	printf("The product of first 100 integers are %0.Lf\n",p);
 
 	return 0;
 }
